@@ -1,0 +1,32 @@
+{
+  "name": "QuietDSP",
+  "version": "0.1.1",
+  "description": "PlatformIO wrapper on the Quiet DSP / Liquid SDR project. Software-Defined Radio Digital Signal Processing Library.",
+  "keywords": "sdr, liquidsdr, modem, encode, decode",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/StegoPhone/quiet-dsp.git"
+  },
+  "include": "src",
+  "authors":
+  [
+    {
+      "name": "Jessica Mulein",
+      "email": "jessica@mulein.com",
+      "url": "https://github.com/JessicaMulein",
+      "maintainer": true
+    },
+    {
+      "name": "Brian Armstrong",
+      "email": "brian.armstrong.ece+github@gmail.com",
+      "url": "https://github.com/brian-armstrong"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://raw.githubusercontent.com/quiet/quiet-dsp/master/LICENSE",
+  "dependencies": {
+  },
+  "frameworks": "arduino, teensy",
+  "platforms": "*"
+}
